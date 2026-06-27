@@ -81,7 +81,14 @@ yarn-error.log*
 # =========================
 
 *.pdf
-*.json
+
+# Ignore only generated JSON reports
+backend/app/reports/*.json
+backend/app/static/reports/*.json
+
+# Ignore secret JSON credentials (if you ever use them)
+credentials.json
+service-account.json
 
 # =========================
 # OS Files
