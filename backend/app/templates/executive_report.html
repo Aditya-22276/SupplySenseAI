@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>
+        SupplySense AI Executive Report
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="../static/css/report.css"
+    >
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Header -->
+
+    <header>
+
+        <div class="logo-area">
+
+            <div class="logo">
+
+                SA
+
+            </div>
+
+            <div>
+
+                <h1>
+                    SupplySense AI
+                </h1>
+
+                <p>
+                    AI Powered Supply Chain Analytics Platform
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="report-info">
+
+            <h3>
+                Executive Business Report
+            </h3>
+
+            <p>
+                {{ generated_at }}
+            </p>
+
+            <span class="badge">
+                CONFIDENTIAL
+            </span>
+
+        </div>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <h2>
+            Executive Supply Chain Report
+        </h2>
+
+        <p>
+
+            Comprehensive AI generated report
+            covering forecasting,
+            inventory,
+            suppliers,
+            warehouse,
+            and operational risks.
+
+        </p>
+
+    </section>
+
+    <!-- KPI Cards -->
+
+    <section class="cards">
+
+        <div class="card">
+
+            <h4>
+                Overall Risk
+            </h4>
+
+            <h1>
+                {{ overall_score }}
+            </h1>
+
+            <p>
+                High Risk
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h4>
+                Forecast Accuracy
+            </h4>
+
+            <h1>
+                {{ forecast_accuracy }}
+            </h1>
+
+            <p>
+                Excellent
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h4>
+                Inventory Health
+            </h4>
+
+            <h1>
+                {{ inventory_health }}
+            </h1>
+
+            <p>
+                Stable
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h4>
+                Suppliers
+            </h4>
+
+            <h1>
+                {{ supplier_performance }}
+            </h1>
+
+            <p>
+                Active
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Risk -->
+
+    <section class="panel">
+
+        <h2>
+            Risk Intelligence
+        </h2>
+
+        <div class="risk-grid">
+
+            <div class="risk high">
+
+                Inventory Risk
+
+                <strong>
+
+                    {{ inventory_risk }}
+
+                </strong>
+
+            </div>
+
+            <div class="risk medium">
+
+                Supplier Risk
+
+                <strong>
+
+                    {{ supplier_risk }}
+
+                </strong>
+
+            </div>
+
+            <div class="risk high">
+
+                Stockout Risk
+
+                <strong>
+
+                    {{ stockout_risk }}
+
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Forecast -->
+
+    <section class="panel">
+
+        <h2>
+
+            Forecast Summary
+
+        </h2>
+
+        <ul>
+
+            {% for item in forecast_summary %}
+
+            <li>
+
+                {{ item }}
+
+            </li>
+
+            {% endfor %}
+
+        </ul>
+
+    </section>
+
+    <!-- AI -->
+
+    <section class="panel recommendation">
+
+        <h2>
+
+            AI Recommendation
+
+        </h2>
+
+        <p>
+
+            {{ recommendation }}
+
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        SupplySense AI • Executive Analytics Report
+
+    </footer>
+
+</div>
+
+</body>
+
+</html>

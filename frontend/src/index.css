@@ -1,0 +1,402 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background: #0b1020;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+
+/*  AI Copilot RGB Border */
+
+
+@keyframes rgbFlow {
+
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+
+@keyframes floatGlow {
+
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+
+}
+
+.copilot-float {
+  animation: floatGlow 2.5s ease-in-out infinite;
+}
+
+.rgb-flow-border {
+
+  background:
+    linear-gradient(
+      90deg,
+      #00f5ff,
+      #7c3aed,
+      #ff0080,
+      #00f5ff
+    );
+
+  background-size: 400% 400%;
+
+  animation: rgbFlow 4s linear infinite;
+
+  box-shadow:
+    0 0 15px rgba(0,245,255,.25),
+    0 0 25px rgba(124,58,237,.15);
+
+}
+
+.rgb-flow-border:hover {
+
+  animation: rgbFlow 1.2s linear infinite;
+
+  box-shadow:
+    0 0 25px rgba(0,245,255,.7),
+    0 0 45px rgba(124,58,237,.6),
+    0 0 65px rgba(255,0,128,.4);
+
+}
+
+.rgb-flow-border:hover svg {
+
+  transform:
+    rotate(8deg)
+    scale(1.12);
+
+  transition: all .3s ease;
+
+}
+
+@keyframes ring {
+
+    0%{
+        transform:rotate(0deg);
+    }
+
+    15%{
+        transform:rotate(20deg);
+    }
+
+    30%{
+        transform:rotate(-20deg);
+    }
+
+    45%{
+        transform:rotate(14deg);
+    }
+
+    60%{
+        transform:rotate(-14deg);
+    }
+
+    75%{
+        transform:rotate(8deg);
+    }
+
+    100%{
+        transform:rotate(0deg);
+    }
+
+}
+
+@keyframes panel{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-20px) scale(.95);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0) scale(1);
+
+    }
+
+}
+
+
+
+
+.premium-title{
+
+    font-size:52px;
+
+    font-weight:800;
+
+    letter-spacing:-1.2px;
+
+    background:linear-gradient(
+        90deg,
+        #f8fafc 0%,
+        #dbeafe 20%,
+        #93c5fd 45%,
+        #60a5fa 70%,
+        #38bdf8 100%
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    margin:0;
+
+    line-height:1.1;
+
+}
+
+.premium-ai{
+
+    background:linear-gradient(
+        135deg,
+        #7c3aed,
+        #8b5cf6,
+        #3b82f6
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    font-weight:900;
+
+}
+
+/* Small  underline */
+
+.premium-title::after{
+
+    content:"";
+
+    display:block;
+
+    width:120px;
+
+    height:4px;
+
+    margin-top:14px;
+
+    border-radius:999px;
+
+    background:linear-gradient(
+        90deg,
+        #8b5cf6,
+        #3b82f6,
+        #06b6d4
+    );
+
+    opacity:.9;
+
+}
+
+
+
+.notification-circle{
+
+    width:56px;
+
+    height:56px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#151d32;
+
+    border:1px solid #27314f;
+
+    transition:.35s;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.notification-ring{
+
+    position:absolute;
+
+    inset:-4px;
+
+    border-radius:50%;
+
+    background:
+
+    linear-gradient(
+
+        135deg,
+
+        #00e5ff,
+
+        #8b5cf6,
+
+        #ff4d8d
+
+    );
+
+    opacity:0;
+
+    filter:blur(10px);
+
+    transition:.35s;
+
+}
+
+.group:hover .notification-ring{
+
+    opacity:1;
+
+}
+
+.notification-bell{
+
+    width:24px;
+
+    height:24px;
+
+    color:white;
+
+    transition:.35s;
+
+}
+
+.group:hover .notification-bell{
+
+    animation:ring .7s ease-in-out;
+
+}
+
+.notification-badge{
+
+    position:absolute;
+
+    top:-5px;
+
+    right:-3px;
+
+    width:22px;
+
+    height:22px;
+
+    border-radius:50%;
+
+    background:#ff3b57;
+
+    color:white;
+
+    font-size:11px;
+
+    font-weight:700;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:
+
+        0 0 15px rgba(255,59,87,.55);
+
+    z-index:5;
+
+    animation:pulse 2s infinite;
+
+}
+
+@keyframes pulse{
+
+    0%{
+
+        transform:scale(1);
+
+    }
+
+    50%{
+
+        transform:scale(1.12);
+
+    }
+
+    100%{
+
+        transform:scale(1);
+
+    }
+
+}
+
+@keyframes ring{
+
+    0%{
+
+        transform:rotate(0deg);
+
+    }
+
+    15%{
+
+        transform:rotate(18deg);
+
+    }
+
+    30%{
+
+        transform:rotate(-18deg);
+
+    }
+
+    45%{
+
+        transform:rotate(14deg);
+
+    }
+
+    60%{
+
+        transform:rotate(-14deg);
+
+    }
+
+    75%{
+
+        transform:rotate(8deg);
+
+    }
+
+    100%{
+
+        transform:rotate(0deg);
+
+    }
+
+}

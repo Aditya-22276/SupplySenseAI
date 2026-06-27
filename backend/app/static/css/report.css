@@ -1,0 +1,404 @@
+/* ---------- Google Font ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Inter",sans-serif;
+}
+
+body{
+
+    background:#eef3fb;
+
+    color:#1e293b;
+
+    padding:50px;
+
+}
+
+/* ---------- Container ---------- */
+
+.container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    background:white;
+
+    border-radius:24px;
+
+    overflow:hidden;
+
+    box-shadow:
+    0 20px 60px rgba(0,0,0,.08);
+
+}
+
+/* ---------- Header ---------- */
+
+header{
+
+    background:
+    linear-gradient(
+        135deg,
+        #2563eb,
+        #4f46e5,
+        #7c3aed
+    );
+
+    color:white;
+
+    padding:45px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo-area{
+
+    display:flex;
+
+    gap:20px;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    width:80px;
+
+    height:80px;
+
+    border-radius:20px;
+
+    background:white;
+
+    color:#2563eb;
+
+    font-size:32px;
+
+    font-weight:800;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+}
+
+header h1{
+
+    font-size:38px;
+
+    font-weight:800;
+
+}
+
+header p{
+
+    opacity:.9;
+
+    margin-top:8px;
+
+}
+
+.report-info{
+
+    text-align:right;
+
+}
+
+.report-info h3{
+
+    font-size:24px;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    background:#10b981;
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:40px;
+
+    font-size:13px;
+
+    font-weight:700;
+
+}
+
+/* ---------- Hero ---------- */
+
+.hero{
+
+    padding:45px;
+
+}
+
+.hero h2{
+
+    font-size:34px;
+
+    font-weight:800;
+
+}
+
+.hero p{
+
+    margin-top:16px;
+
+    color:#64748b;
+
+    line-height:1.8;
+
+}
+
+/* ---------- KPI Cards ---------- */
+
+.cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    padding:0 45px 45px;
+
+}
+
+.card{
+
+    border-radius:22px;
+
+    padding:28px;
+
+    color:white;
+
+    background:
+    linear-gradient(
+        135deg,
+        #2563eb,
+        #4f46e5
+    );
+
+    box-shadow:
+    0 15px 40px rgba(79,70,229,.20);
+
+}
+
+.card:nth-child(2){
+
+    background:
+    linear-gradient(
+        135deg,
+        #0ea5e9,
+        #2563eb
+    );
+
+}
+
+.card:nth-child(3){
+
+    background:
+    linear-gradient(
+        135deg,
+        #7c3aed,
+        #9333ea
+    );
+
+}
+
+.card:nth-child(4){
+
+    background:
+    linear-gradient(
+        135deg,
+        #06b6d4,
+        #0ea5e9
+    );
+
+}
+
+.card h4{
+
+    opacity:.9;
+
+    font-weight:500;
+
+}
+
+.card h1{
+
+    margin-top:18px;
+
+    font-size:46px;
+
+    font-weight:800;
+
+}
+
+.card p{
+
+    margin-top:10px;
+
+}
+
+/* ---------- Sections ---------- */
+
+.panel{
+
+    margin:0 45px 35px;
+
+    padding:30px;
+
+    background:#f8fafc;
+
+    border-radius:22px;
+
+}
+
+.panel h2{
+
+    margin-bottom:22px;
+
+    color:#2563eb;
+
+}
+
+/* ---------- Risk ---------- */
+
+.risk-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:20px;
+
+}
+
+.risk{
+
+    border-radius:18px;
+
+    padding:25px;
+
+    text-align:center;
+
+    font-size:18px;
+
+    font-weight:600;
+
+}
+
+.risk strong{
+
+    display:block;
+
+    margin-top:12px;
+
+    font-size:26px;
+
+}
+
+.high{
+
+    background:#fee2e2;
+
+    color:#dc2626;
+
+}
+
+.medium{
+
+    background:#fef3c7;
+
+    color:#d97706;
+
+}
+
+.low{
+
+    background:#dcfce7;
+
+    color:#16a34a;
+
+}
+
+/* ---------- Forecast ---------- */
+
+ul{
+
+    padding-left:22px;
+
+}
+
+li{
+
+    margin-bottom:16px;
+
+    color:#475569;
+
+    line-height:1.8;
+
+}
+
+/* ---------- Recommendation ---------- */
+
+.recommendation{
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #eef2ff,
+        #e0e7ff
+    );
+
+    border-left:8px solid #4f46e5;
+
+}
+
+.recommendation p{
+
+    line-height:1.9;
+
+    color:#334155;
+
+}
+
+/* ---------- Footer ---------- */
+
+footer{
+
+    margin-top:45px;
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:28px;
+
+    font-size:15px;
+
+}

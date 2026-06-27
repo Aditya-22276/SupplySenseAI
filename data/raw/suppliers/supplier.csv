@@ -1,0 +1,1001 @@
+supplier_id,supplier_name,category,lead_time_days,reliability_score,on_time_delivery_rate,quality_score
+S0001,Supplier_1,Cosmetics,17,81.82,88.23,71.78
+S0002,Supplier_2,Toys,9,74.71,88.78,98.13
+S0003,Supplier_3,Clothing,5,77.24,85.79,77.03
+S0004,Supplier_4,Toys,17,84.34,86.72,71.64
+S0005,Supplier_5,Cosmetics,12,93.05,94.82,64.43
+S0006,Supplier_6,Toys,19,93.01,76.1,92.59
+S0007,Supplier_7,Books,12,84.69,88.14,85.0
+S0008,Supplier_8,Cosmetics,7,86.84,87.16,71.69
+S0009,Supplier_9,Food & Beverage,10,85.23,77.01,95.83
+S0010,Supplier_10,Clothing,9,92.95,88.31,78.84
+S0011,Supplier_11,Technology,2,90.95,75.1,75.13
+S0012,Supplier_12,Cosmetics,15,91.81,97.27,90.09
+S0013,Supplier_13,Shoes,2,92.96,81.59,65.84
+S0014,Supplier_14,Food & Beverage,15,93.41,80.49,87.53
+S0015,Supplier_15,Shoes,15,87.23,80.48,90.36
+S0016,Supplier_16,Food & Beverage,11,78.0,76.08,94.32
+S0017,Supplier_17,Toys,3,80.95,95.39,92.17
+S0018,Supplier_18,Shoes,18,91.49,98.73,67.48
+S0019,Supplier_19,Shoes,19,84.6,86.86,99.45
+S0020,Supplier_20,Cosmetics,3,78.03,80.9,86.33
+S0021,Supplier_21,Souvenir,16,98.25,82.3,88.29
+S0022,Supplier_22,Food & Beverage,6,85.83,80.92,95.67
+S0023,Supplier_23,Toys,15,83.58,86.97,90.39
+S0024,Supplier_24,Toys,3,71.7,98.34,86.5
+S0025,Supplier_25,Food & Beverage,13,97.83,78.0,82.0
+S0026,Supplier_26,Souvenir,13,70.74,80.37,61.9
+S0027,Supplier_27,Books,5,95.47,85.11,87.65
+S0028,Supplier_28,Technology,15,73.7,78.29,97.31
+S0029,Supplier_29,Food & Beverage,10,92.6,79.82,93.2
+S0030,Supplier_30,Toys,11,93.15,92.81,65.35
+S0031,Supplier_31,Food & Beverage,10,80.55,97.18,91.92
+S0032,Supplier_32,Food & Beverage,9,88.22,89.39,94.95
+S0033,Supplier_33,Shoes,7,91.82,82.19,88.09
+S0034,Supplier_34,Clothing,14,95.63,94.91,97.25
+S0035,Supplier_35,Souvenir,4,76.9,78.05,95.35
+S0036,Supplier_36,Books,14,93.12,83.26,81.14
+S0037,Supplier_37,Shoes,13,71.23,81.69,62.46
+S0038,Supplier_38,Shoes,2,86.26,79.93,73.77
+S0039,Supplier_39,Food & Beverage,12,86.79,89.42,66.3
+S0040,Supplier_40,Shoes,13,80.33,87.99,91.43
+S0041,Supplier_41,Souvenir,7,84.23,96.36,86.94
+S0042,Supplier_42,Cosmetics,2,79.79,80.8,84.91
+S0043,Supplier_43,Books,13,91.99,76.73,82.51
+S0044,Supplier_44,Technology,6,77.96,76.43,72.52
+S0045,Supplier_45,Clothing,14,70.36,92.03,80.56
+S0046,Supplier_46,Toys,4,72.38,80.26,72.44
+S0047,Supplier_47,Souvenir,6,80.6,85.17,63.12
+S0048,Supplier_48,Food & Beverage,7,81.16,98.93,62.4
+S0049,Supplier_49,Cosmetics,16,94.0,95.02,89.42
+S0050,Supplier_50,Toys,7,73.96,88.59,83.61
+S0051,Supplier_51,Technology,2,76.25,89.94,61.61
+S0052,Supplier_52,Technology,12,92.94,81.44,96.44
+S0053,Supplier_53,Books,11,91.15,89.0,88.04
+S0054,Supplier_54,Technology,14,95.79,83.28,94.68
+S0055,Supplier_55,Books,5,88.81,95.12,65.92
+S0056,Supplier_56,Books,12,81.98,87.52,73.95
+S0057,Supplier_57,Technology,5,85.38,79.79,64.31
+S0058,Supplier_58,Technology,4,94.0,80.06,99.55
+S0059,Supplier_59,Technology,12,76.83,89.18,74.38
+S0060,Supplier_60,Toys,5,74.73,93.63,99.47
+S0061,Supplier_61,Books,10,94.4,82.31,73.3
+S0062,Supplier_62,Books,11,76.26,91.22,61.78
+S0063,Supplier_63,Shoes,16,75.12,86.31,97.96
+S0064,Supplier_64,Souvenir,8,96.2,87.87,60.52
+S0065,Supplier_65,Toys,9,88.93,92.63,75.27
+S0066,Supplier_66,Toys,7,86.73,79.11,91.77
+S0067,Supplier_67,Souvenir,17,80.66,92.18,80.87
+S0068,Supplier_68,Shoes,8,78.31,97.02,87.05
+S0069,Supplier_69,Technology,18,73.42,93.31,71.14
+S0070,Supplier_70,Food & Beverage,14,89.69,85.7,98.23
+S0071,Supplier_71,Food & Beverage,3,85.24,98.99,83.79
+S0072,Supplier_72,Food & Beverage,18,88.6,81.13,82.98
+S0073,Supplier_73,Technology,11,93.55,88.06,65.72
+S0074,Supplier_74,Toys,3,93.14,77.39,64.15
+S0075,Supplier_75,Technology,15,92.02,75.26,94.17
+S0076,Supplier_76,Shoes,5,93.81,94.69,66.39
+S0077,Supplier_77,Souvenir,5,98.74,83.22,74.85
+S0078,Supplier_78,Shoes,3,83.82,97.65,86.81
+S0079,Supplier_79,Technology,10,81.87,84.34,84.3
+S0080,Supplier_80,Souvenir,5,95.36,92.27,74.94
+S0081,Supplier_81,Food & Beverage,5,83.33,97.59,69.89
+S0082,Supplier_82,Food & Beverage,16,82.13,89.03,69.74
+S0083,Supplier_83,Shoes,10,75.42,92.17,94.47
+S0084,Supplier_84,Souvenir,2,77.18,76.04,86.3
+S0085,Supplier_85,Technology,7,81.1,90.31,91.27
+S0086,Supplier_86,Souvenir,8,79.02,87.96,65.96
+S0087,Supplier_87,Books,16,75.65,88.78,87.98
+S0088,Supplier_88,Books,17,98.66,80.03,76.97
+S0089,Supplier_89,Food & Beverage,15,80.25,84.39,77.08
+S0090,Supplier_90,Clothing,15,82.18,82.76,84.37
+S0091,Supplier_91,Technology,14,72.3,95.09,84.4
+S0092,Supplier_92,Souvenir,2,91.0,82.65,93.28
+S0093,Supplier_93,Books,4,88.26,87.64,82.39
+S0094,Supplier_94,Clothing,9,94.92,75.0,98.54
+S0095,Supplier_95,Toys,10,81.72,75.37,85.65
+S0096,Supplier_96,Clothing,18,92.46,83.47,83.78
+S0097,Supplier_97,Clothing,6,93.75,88.3,92.13
+S0098,Supplier_98,Toys,7,95.0,95.97,82.05
+S0099,Supplier_99,Technology,19,84.09,96.91,98.08
+S0100,Supplier_100,Shoes,3,77.96,90.31,93.6
+S0101,Supplier_101,Books,16,79.71,94.41,81.68
+S0102,Supplier_102,Clothing,10,90.18,90.93,79.91
+S0103,Supplier_103,Shoes,10,72.38,89.02,90.89
+S0104,Supplier_104,Souvenir,10,90.94,90.55,61.04
+S0105,Supplier_105,Toys,19,73.23,84.94,64.75
+S0106,Supplier_106,Technology,2,92.11,82.33,92.82
+S0107,Supplier_107,Shoes,10,75.68,77.36,83.23
+S0108,Supplier_108,Toys,9,80.4,96.13,94.37
+S0109,Supplier_109,Clothing,11,90.23,84.18,78.74
+S0110,Supplier_110,Cosmetics,4,81.28,88.04,82.07
+S0111,Supplier_111,Cosmetics,8,80.73,86.62,90.4
+S0112,Supplier_112,Shoes,15,98.7,97.13,87.37
+S0113,Supplier_113,Cosmetics,8,85.07,85.05,71.19
+S0114,Supplier_114,Cosmetics,15,81.85,96.29,97.7
+S0115,Supplier_115,Toys,7,98.21,78.25,94.07
+S0116,Supplier_116,Souvenir,19,97.04,83.59,70.97
+S0117,Supplier_117,Technology,18,84.26,95.01,73.87
+S0118,Supplier_118,Shoes,16,94.33,86.62,67.06
+S0119,Supplier_119,Technology,4,89.39,77.35,86.06
+S0120,Supplier_120,Souvenir,4,80.93,88.45,94.69
+S0121,Supplier_121,Cosmetics,6,94.67,76.96,65.05
+S0122,Supplier_122,Cosmetics,13,90.75,78.16,76.99
+S0123,Supplier_123,Food & Beverage,3,77.24,87.96,89.79
+S0124,Supplier_124,Cosmetics,12,72.91,90.18,83.99
+S0125,Supplier_125,Books,9,84.7,83.51,90.15
+S0126,Supplier_126,Books,15,93.45,86.77,67.44
+S0127,Supplier_127,Food & Beverage,15,92.57,94.96,89.05
+S0128,Supplier_128,Toys,14,91.28,87.39,63.94
+S0129,Supplier_129,Souvenir,6,93.35,81.11,71.73
+S0130,Supplier_130,Clothing,8,95.4,93.63,80.05
+S0131,Supplier_131,Cosmetics,14,96.88,98.43,75.5
+S0132,Supplier_132,Souvenir,14,75.88,84.29,97.11
+S0133,Supplier_133,Technology,17,79.81,80.34,87.39
+S0134,Supplier_134,Toys,11,92.7,76.19,88.15
+S0135,Supplier_135,Food & Beverage,2,72.31,95.16,64.84
+S0136,Supplier_136,Shoes,3,84.24,93.19,77.91
+S0137,Supplier_137,Shoes,16,84.49,83.73,89.37
+S0138,Supplier_138,Clothing,6,85.28,83.69,66.39
+S0139,Supplier_139,Shoes,2,87.74,86.79,96.29
+S0140,Supplier_140,Food & Beverage,17,87.06,85.9,73.86
+S0141,Supplier_141,Cosmetics,6,82.88,93.98,67.0
+S0142,Supplier_142,Cosmetics,12,80.84,97.0,85.12
+S0143,Supplier_143,Food & Beverage,11,87.06,90.76,78.78
+S0144,Supplier_144,Technology,2,72.38,83.47,97.16
+S0145,Supplier_145,Clothing,9,87.65,93.33,69.42
+S0146,Supplier_146,Books,10,70.59,87.83,81.95
+S0147,Supplier_147,Cosmetics,11,96.86,85.96,75.66
+S0148,Supplier_148,Food & Beverage,12,72.0,93.4,80.16
+S0149,Supplier_149,Technology,5,75.99,89.58,69.42
+S0150,Supplier_150,Food & Beverage,4,97.12,79.47,72.56
+S0151,Supplier_151,Food & Beverage,13,71.75,78.49,76.4
+S0152,Supplier_152,Clothing,18,70.59,94.73,89.09
+S0153,Supplier_153,Shoes,2,89.21,77.96,62.62
+S0154,Supplier_154,Cosmetics,18,96.77,94.32,95.4
+S0155,Supplier_155,Clothing,18,93.84,94.3,66.64
+S0156,Supplier_156,Souvenir,12,85.91,82.13,83.3
+S0157,Supplier_157,Toys,15,80.4,86.03,68.53
+S0158,Supplier_158,Technology,12,98.03,89.98,64.97
+S0159,Supplier_159,Clothing,10,93.18,89.94,74.41
+S0160,Supplier_160,Cosmetics,13,76.51,81.83,61.51
+S0161,Supplier_161,Clothing,19,93.92,92.3,81.78
+S0162,Supplier_162,Books,19,90.75,89.0,80.33
+S0163,Supplier_163,Shoes,8,89.14,79.68,60.4
+S0164,Supplier_164,Books,8,76.9,94.64,62.72
+S0165,Supplier_165,Technology,8,79.72,90.93,60.89
+S0166,Supplier_166,Toys,13,91.55,91.8,62.95
+S0167,Supplier_167,Cosmetics,15,81.47,84.25,95.65
+S0168,Supplier_168,Technology,11,85.58,76.07,67.31
+S0169,Supplier_169,Cosmetics,14,94.88,78.93,63.55
+S0170,Supplier_170,Books,4,86.15,94.9,83.55
+S0171,Supplier_171,Cosmetics,15,77.71,91.75,79.28
+S0172,Supplier_172,Toys,16,80.48,88.85,65.24
+S0173,Supplier_173,Shoes,8,92.21,94.02,73.06
+S0174,Supplier_174,Toys,19,97.73,77.45,65.55
+S0175,Supplier_175,Cosmetics,2,70.76,75.27,65.75
+S0176,Supplier_176,Technology,7,98.04,84.78,78.03
+S0177,Supplier_177,Souvenir,7,76.4,98.85,67.62
+S0178,Supplier_178,Cosmetics,17,84.39,98.7,75.42
+S0179,Supplier_179,Cosmetics,11,73.03,95.77,70.02
+S0180,Supplier_180,Food & Beverage,2,83.9,95.72,81.25
+S0181,Supplier_181,Cosmetics,16,71.75,87.95,75.01
+S0182,Supplier_182,Cosmetics,13,82.01,89.26,92.99
+S0183,Supplier_183,Shoes,3,85.13,77.83,98.55
+S0184,Supplier_184,Cosmetics,14,83.06,93.6,70.85
+S0185,Supplier_185,Technology,2,76.08,96.89,71.09
+S0186,Supplier_186,Books,17,84.96,78.0,99.74
+S0187,Supplier_187,Toys,11,89.17,81.61,92.84
+S0188,Supplier_188,Books,8,95.46,86.3,87.55
+S0189,Supplier_189,Toys,13,87.73,93.78,94.14
+S0190,Supplier_190,Food & Beverage,16,94.58,87.44,60.34
+S0191,Supplier_191,Food & Beverage,16,70.98,89.14,89.03
+S0192,Supplier_192,Books,2,78.48,75.56,62.58
+S0193,Supplier_193,Food & Beverage,17,92.73,82.93,66.83
+S0194,Supplier_194,Toys,2,75.39,77.79,94.6
+S0195,Supplier_195,Technology,12,76.95,92.65,96.39
+S0196,Supplier_196,Books,4,88.07,83.87,63.67
+S0197,Supplier_197,Books,3,74.59,90.56,84.96
+S0198,Supplier_198,Food & Beverage,4,77.89,92.52,81.37
+S0199,Supplier_199,Shoes,6,92.35,76.4,76.74
+S0200,Supplier_200,Technology,17,71.75,89.52,79.3
+S0201,Supplier_201,Cosmetics,6,76.94,82.92,70.2
+S0202,Supplier_202,Toys,3,84.13,94.75,81.19
+S0203,Supplier_203,Books,5,89.32,79.77,74.61
+S0204,Supplier_204,Cosmetics,7,89.44,84.84,75.51
+S0205,Supplier_205,Toys,7,79.86,95.44,66.53
+S0206,Supplier_206,Cosmetics,10,84.6,93.62,60.97
+S0207,Supplier_207,Cosmetics,12,77.93,83.66,65.84
+S0208,Supplier_208,Shoes,5,83.34,78.86,64.99
+S0209,Supplier_209,Souvenir,14,97.12,76.65,68.22
+S0210,Supplier_210,Technology,7,74.96,98.97,70.54
+S0211,Supplier_211,Technology,4,76.2,93.25,76.94
+S0212,Supplier_212,Toys,16,72.81,75.66,78.03
+S0213,Supplier_213,Shoes,8,88.7,91.67,89.99
+S0214,Supplier_214,Shoes,8,94.04,86.4,73.43
+S0215,Supplier_215,Souvenir,17,93.41,96.3,61.62
+S0216,Supplier_216,Cosmetics,8,73.67,84.9,70.52
+S0217,Supplier_217,Shoes,11,72.44,87.85,62.17
+S0218,Supplier_218,Technology,7,81.1,75.71,93.04
+S0219,Supplier_219,Technology,19,76.07,94.95,90.61
+S0220,Supplier_220,Technology,15,75.64,98.97,66.83
+S0221,Supplier_221,Cosmetics,12,88.56,78.14,82.67
+S0222,Supplier_222,Souvenir,10,79.56,95.89,84.62
+S0223,Supplier_223,Food & Beverage,14,79.81,88.63,88.37
+S0224,Supplier_224,Souvenir,18,76.4,97.43,95.9
+S0225,Supplier_225,Shoes,13,90.32,98.9,74.13
+S0226,Supplier_226,Technology,6,70.09,80.91,90.6
+S0227,Supplier_227,Cosmetics,10,97.93,75.76,78.52
+S0228,Supplier_228,Books,4,73.53,93.63,92.77
+S0229,Supplier_229,Clothing,15,82.29,82.84,65.97
+S0230,Supplier_230,Books,17,71.59,97.66,68.37
+S0231,Supplier_231,Shoes,14,71.69,83.83,62.97
+S0232,Supplier_232,Toys,11,86.78,97.24,95.44
+S0233,Supplier_233,Shoes,19,73.75,79.08,81.39
+S0234,Supplier_234,Technology,8,72.12,89.09,81.55
+S0235,Supplier_235,Shoes,3,81.34,86.13,98.15
+S0236,Supplier_236,Shoes,19,90.22,79.71,81.92
+S0237,Supplier_237,Cosmetics,15,87.98,86.64,93.0
+S0238,Supplier_238,Books,13,97.72,98.11,72.62
+S0239,Supplier_239,Souvenir,7,87.44,81.28,75.42
+S0240,Supplier_240,Souvenir,5,70.22,85.92,72.89
+S0241,Supplier_241,Cosmetics,18,88.47,95.05,82.13
+S0242,Supplier_242,Cosmetics,11,93.56,79.98,70.45
+S0243,Supplier_243,Food & Beverage,18,70.23,94.38,99.16
+S0244,Supplier_244,Food & Beverage,11,92.56,93.9,86.73
+S0245,Supplier_245,Toys,17,78.3,94.64,87.01
+S0246,Supplier_246,Shoes,9,73.42,85.93,97.86
+S0247,Supplier_247,Souvenir,13,77.88,90.87,98.78
+S0248,Supplier_248,Food & Beverage,3,98.68,87.76,66.81
+S0249,Supplier_249,Shoes,8,90.33,95.28,95.27
+S0250,Supplier_250,Shoes,6,87.5,95.44,82.63
+S0251,Supplier_251,Food & Beverage,18,72.69,79.76,79.78
+S0252,Supplier_252,Souvenir,3,81.06,87.74,99.8
+S0253,Supplier_253,Shoes,11,71.37,89.71,61.51
+S0254,Supplier_254,Books,19,75.58,80.73,65.92
+S0255,Supplier_255,Cosmetics,11,72.1,98.39,63.44
+S0256,Supplier_256,Cosmetics,5,86.18,88.79,64.7
+S0257,Supplier_257,Cosmetics,6,75.94,94.3,65.44
+S0258,Supplier_258,Clothing,11,92.56,81.45,84.19
+S0259,Supplier_259,Books,9,84.81,91.58,66.63
+S0260,Supplier_260,Toys,13,97.64,89.73,62.53
+S0261,Supplier_261,Food & Beverage,11,80.72,98.4,96.81
+S0262,Supplier_262,Clothing,8,79.77,88.09,62.97
+S0263,Supplier_263,Clothing,18,90.13,94.9,70.13
+S0264,Supplier_264,Cosmetics,19,71.09,95.12,89.37
+S0265,Supplier_265,Food & Beverage,16,85.27,86.3,94.97
+S0266,Supplier_266,Technology,10,74.82,91.47,77.37
+S0267,Supplier_267,Books,6,87.82,95.88,86.88
+S0268,Supplier_268,Cosmetics,8,90.43,75.49,70.44
+S0269,Supplier_269,Technology,9,83.03,85.28,93.14
+S0270,Supplier_270,Cosmetics,14,85.97,75.86,78.64
+S0271,Supplier_271,Toys,11,84.68,78.09,93.73
+S0272,Supplier_272,Shoes,9,73.47,79.5,77.36
+S0273,Supplier_273,Clothing,14,92.2,93.06,79.06
+S0274,Supplier_274,Shoes,4,77.95,77.42,86.9
+S0275,Supplier_275,Technology,5,75.86,95.77,94.29
+S0276,Supplier_276,Books,11,90.43,84.95,72.31
+S0277,Supplier_277,Food & Beverage,15,76.49,81.44,95.29
+S0278,Supplier_278,Souvenir,16,76.89,87.98,89.67
+S0279,Supplier_279,Technology,11,74.37,89.53,62.63
+S0280,Supplier_280,Books,7,91.24,81.47,83.25
+S0281,Supplier_281,Shoes,2,71.46,94.21,96.37
+S0282,Supplier_282,Souvenir,17,98.31,82.81,84.99
+S0283,Supplier_283,Books,13,97.81,84.82,64.82
+S0284,Supplier_284,Shoes,10,77.72,87.89,78.41
+S0285,Supplier_285,Toys,19,77.09,78.84,86.7
+S0286,Supplier_286,Books,16,93.17,87.37,79.54
+S0287,Supplier_287,Books,17,73.0,88.6,73.12
+S0288,Supplier_288,Clothing,12,77.87,78.13,78.83
+S0289,Supplier_289,Technology,13,82.85,79.06,74.35
+S0290,Supplier_290,Souvenir,9,88.91,94.91,74.52
+S0291,Supplier_291,Books,8,71.15,98.86,87.06
+S0292,Supplier_292,Toys,12,76.64,94.26,75.15
+S0293,Supplier_293,Food & Beverage,9,80.13,80.23,77.3
+S0294,Supplier_294,Technology,17,80.09,93.29,71.86
+S0295,Supplier_295,Toys,13,76.67,75.8,79.99
+S0296,Supplier_296,Clothing,4,89.58,96.21,90.65
+S0297,Supplier_297,Toys,12,90.72,92.3,74.95
+S0298,Supplier_298,Food & Beverage,14,93.8,79.93,95.4
+S0299,Supplier_299,Cosmetics,2,81.96,92.03,96.71
+S0300,Supplier_300,Shoes,3,86.5,87.62,77.35
+S0301,Supplier_301,Technology,10,85.42,83.83,98.29
+S0302,Supplier_302,Books,10,89.46,97.3,98.87
+S0303,Supplier_303,Cosmetics,6,86.31,96.92,80.8
+S0304,Supplier_304,Clothing,18,96.37,85.65,85.13
+S0305,Supplier_305,Clothing,16,76.72,76.82,74.82
+S0306,Supplier_306,Books,16,97.76,78.12,61.07
+S0307,Supplier_307,Shoes,2,97.92,92.63,63.42
+S0308,Supplier_308,Toys,13,72.72,88.86,84.97
+S0309,Supplier_309,Food & Beverage,3,77.98,80.51,63.03
+S0310,Supplier_310,Souvenir,18,85.24,92.27,93.43
+S0311,Supplier_311,Cosmetics,5,92.28,89.87,97.31
+S0312,Supplier_312,Shoes,7,75.68,78.22,98.47
+S0313,Supplier_313,Technology,18,76.14,79.55,84.38
+S0314,Supplier_314,Clothing,16,80.68,80.34,64.45
+S0315,Supplier_315,Technology,17,84.55,81.61,63.5
+S0316,Supplier_316,Technology,5,90.36,95.86,60.95
+S0317,Supplier_317,Toys,15,70.24,80.47,85.65
+S0318,Supplier_318,Technology,13,80.26,77.32,88.87
+S0319,Supplier_319,Clothing,4,76.79,89.0,60.71
+S0320,Supplier_320,Cosmetics,4,73.25,95.2,60.08
+S0321,Supplier_321,Souvenir,14,76.6,93.63,61.24
+S0322,Supplier_322,Clothing,9,95.6,81.58,91.22
+S0323,Supplier_323,Cosmetics,16,84.14,96.34,95.74
+S0324,Supplier_324,Souvenir,12,72.18,82.25,90.68
+S0325,Supplier_325,Books,11,78.87,93.53,87.06
+S0326,Supplier_326,Shoes,19,88.31,83.52,93.6
+S0327,Supplier_327,Clothing,5,82.82,82.8,97.8
+S0328,Supplier_328,Technology,4,75.44,95.76,93.66
+S0329,Supplier_329,Toys,6,80.86,93.47,79.05
+S0330,Supplier_330,Cosmetics,9,76.41,76.09,92.67
+S0331,Supplier_331,Books,3,93.97,91.74,88.4
+S0332,Supplier_332,Souvenir,10,77.65,85.53,65.57
+S0333,Supplier_333,Technology,17,72.42,80.8,82.89
+S0334,Supplier_334,Technology,9,83.49,75.06,67.57
+S0335,Supplier_335,Shoes,5,77.63,93.16,66.9
+S0336,Supplier_336,Shoes,2,85.23,89.27,78.56
+S0337,Supplier_337,Technology,12,71.02,94.15,77.31
+S0338,Supplier_338,Books,5,97.1,84.43,95.1
+S0339,Supplier_339,Food & Beverage,3,83.64,82.7,84.74
+S0340,Supplier_340,Food & Beverage,11,98.98,92.67,71.03
+S0341,Supplier_341,Clothing,11,77.01,92.79,63.48
+S0342,Supplier_342,Clothing,10,85.38,97.88,81.34
+S0343,Supplier_343,Cosmetics,15,97.7,93.56,76.84
+S0344,Supplier_344,Toys,12,74.3,79.49,68.17
+S0345,Supplier_345,Shoes,6,76.24,77.29,64.71
+S0346,Supplier_346,Technology,9,74.85,77.69,68.98
+S0347,Supplier_347,Toys,18,88.63,77.03,84.0
+S0348,Supplier_348,Technology,14,88.51,86.9,76.71
+S0349,Supplier_349,Clothing,10,98.02,80.59,91.71
+S0350,Supplier_350,Technology,15,87.47,78.38,73.08
+S0351,Supplier_351,Toys,15,70.35,83.54,67.04
+S0352,Supplier_352,Food & Beverage,18,96.5,92.06,81.17
+S0353,Supplier_353,Books,19,96.78,97.0,85.99
+S0354,Supplier_354,Souvenir,18,82.82,82.28,97.55
+S0355,Supplier_355,Technology,17,70.77,83.25,78.07
+S0356,Supplier_356,Food & Beverage,13,94.98,76.05,78.57
+S0357,Supplier_357,Books,16,72.07,80.38,80.29
+S0358,Supplier_358,Clothing,4,73.58,90.86,87.78
+S0359,Supplier_359,Clothing,13,85.54,79.56,82.47
+S0360,Supplier_360,Food & Beverage,3,86.72,81.43,91.17
+S0361,Supplier_361,Technology,11,79.36,90.69,92.05
+S0362,Supplier_362,Shoes,13,83.3,76.18,62.73
+S0363,Supplier_363,Clothing,5,96.26,96.64,99.55
+S0364,Supplier_364,Clothing,14,82.66,77.97,96.58
+S0365,Supplier_365,Books,17,75.01,94.09,77.34
+S0366,Supplier_366,Books,10,74.49,92.18,96.1
+S0367,Supplier_367,Toys,10,84.57,90.67,78.35
+S0368,Supplier_368,Books,19,92.66,78.31,87.2
+S0369,Supplier_369,Toys,2,83.1,97.73,72.77
+S0370,Supplier_370,Souvenir,8,92.51,89.01,84.49
+S0371,Supplier_371,Shoes,6,80.4,92.25,68.36
+S0372,Supplier_372,Books,6,80.47,80.57,96.58
+S0373,Supplier_373,Technology,5,96.28,90.37,99.16
+S0374,Supplier_374,Books,15,80.76,76.94,92.77
+S0375,Supplier_375,Food & Beverage,6,96.06,90.03,79.47
+S0376,Supplier_376,Technology,19,95.12,80.52,87.38
+S0377,Supplier_377,Clothing,5,91.28,85.77,77.43
+S0378,Supplier_378,Souvenir,15,96.08,76.22,79.94
+S0379,Supplier_379,Souvenir,7,77.62,92.81,93.09
+S0380,Supplier_380,Food & Beverage,12,89.25,92.12,78.64
+S0381,Supplier_381,Clothing,15,70.06,78.44,84.49
+S0382,Supplier_382,Clothing,9,86.58,75.79,90.28
+S0383,Supplier_383,Souvenir,2,86.99,82.44,93.4
+S0384,Supplier_384,Food & Beverage,14,97.2,77.36,87.25
+S0385,Supplier_385,Shoes,19,71.56,88.24,84.19
+S0386,Supplier_386,Souvenir,7,71.57,88.31,98.46
+S0387,Supplier_387,Food & Beverage,16,73.23,81.44,76.17
+S0388,Supplier_388,Shoes,15,92.03,83.84,89.81
+S0389,Supplier_389,Shoes,7,88.09,98.43,90.78
+S0390,Supplier_390,Cosmetics,19,85.36,80.29,79.72
+S0391,Supplier_391,Food & Beverage,5,79.07,91.32,83.87
+S0392,Supplier_392,Technology,12,80.24,94.54,87.24
+S0393,Supplier_393,Clothing,9,92.56,93.87,89.94
+S0394,Supplier_394,Food & Beverage,11,79.57,89.06,72.54
+S0395,Supplier_395,Souvenir,17,76.85,93.4,94.18
+S0396,Supplier_396,Shoes,17,77.61,91.56,95.21
+S0397,Supplier_397,Clothing,2,88.02,89.37,77.0
+S0398,Supplier_398,Clothing,10,80.03,78.75,65.55
+S0399,Supplier_399,Technology,12,72.33,95.77,80.34
+S0400,Supplier_400,Books,5,97.36,91.73,70.72
+S0401,Supplier_401,Shoes,17,75.9,79.82,71.72
+S0402,Supplier_402,Souvenir,18,95.33,92.71,73.71
+S0403,Supplier_403,Souvenir,17,85.92,98.76,94.99
+S0404,Supplier_404,Souvenir,5,94.94,97.71,82.02
+S0405,Supplier_405,Toys,12,75.32,81.73,60.35
+S0406,Supplier_406,Clothing,15,77.25,76.62,63.72
+S0407,Supplier_407,Shoes,8,79.99,76.96,98.44
+S0408,Supplier_408,Shoes,11,74.91,87.06,96.65
+S0409,Supplier_409,Shoes,15,82.43,79.35,68.04
+S0410,Supplier_410,Cosmetics,7,98.36,98.94,96.24
+S0411,Supplier_411,Books,3,94.61,76.67,83.1
+S0412,Supplier_412,Technology,13,81.49,94.96,60.05
+S0413,Supplier_413,Cosmetics,10,91.41,80.46,75.3
+S0414,Supplier_414,Toys,16,92.02,83.15,60.13
+S0415,Supplier_415,Books,2,75.69,96.9,91.02
+S0416,Supplier_416,Shoes,12,78.72,88.37,71.86
+S0417,Supplier_417,Books,13,81.55,89.57,93.51
+S0418,Supplier_418,Clothing,4,81.22,85.44,98.96
+S0419,Supplier_419,Books,19,75.92,98.94,87.63
+S0420,Supplier_420,Technology,19,70.28,98.97,68.81
+S0421,Supplier_421,Shoes,6,77.33,88.2,83.56
+S0422,Supplier_422,Souvenir,17,98.33,90.2,99.25
+S0423,Supplier_423,Shoes,4,82.86,82.98,90.93
+S0424,Supplier_424,Shoes,11,80.57,77.41,89.91
+S0425,Supplier_425,Books,13,81.26,93.58,62.02
+S0426,Supplier_426,Cosmetics,18,80.7,82.77,77.64
+S0427,Supplier_427,Food & Beverage,2,72.98,93.96,88.79
+S0428,Supplier_428,Food & Beverage,19,70.54,83.63,89.11
+S0429,Supplier_429,Souvenir,4,95.02,87.14,96.38
+S0430,Supplier_430,Clothing,12,97.82,82.26,79.72
+S0431,Supplier_431,Books,8,77.1,83.1,78.69
+S0432,Supplier_432,Books,3,81.23,79.83,71.63
+S0433,Supplier_433,Souvenir,6,90.73,85.42,64.11
+S0434,Supplier_434,Toys,14,87.34,91.07,73.23
+S0435,Supplier_435,Cosmetics,2,84.31,94.69,90.4
+S0436,Supplier_436,Technology,3,78.14,84.61,64.46
+S0437,Supplier_437,Toys,18,78.78,96.65,77.77
+S0438,Supplier_438,Cosmetics,17,78.99,98.6,83.11
+S0439,Supplier_439,Shoes,19,74.83,80.59,96.78
+S0440,Supplier_440,Clothing,8,72.83,88.76,67.97
+S0441,Supplier_441,Souvenir,14,96.04,92.07,71.57
+S0442,Supplier_442,Cosmetics,11,79.97,98.31,66.93
+S0443,Supplier_443,Shoes,5,93.33,94.16,79.99
+S0444,Supplier_444,Shoes,14,72.53,87.34,77.45
+S0445,Supplier_445,Technology,18,90.34,88.24,68.71
+S0446,Supplier_446,Toys,17,96.02,83.7,94.72
+S0447,Supplier_447,Clothing,10,90.27,90.19,98.77
+S0448,Supplier_448,Food & Beverage,14,78.58,82.23,69.41
+S0449,Supplier_449,Shoes,16,98.91,75.76,81.64
+S0450,Supplier_450,Food & Beverage,17,97.66,93.73,77.74
+S0451,Supplier_451,Souvenir,7,86.44,91.16,90.07
+S0452,Supplier_452,Clothing,9,98.52,77.19,84.39
+S0453,Supplier_453,Toys,15,71.63,97.81,63.09
+S0454,Supplier_454,Technology,8,85.42,81.12,64.96
+S0455,Supplier_455,Clothing,2,95.32,94.7,77.74
+S0456,Supplier_456,Technology,6,74.47,80.13,79.47
+S0457,Supplier_457,Cosmetics,2,89.98,96.08,68.17
+S0458,Supplier_458,Souvenir,9,79.91,96.97,89.16
+S0459,Supplier_459,Food & Beverage,16,75.3,80.62,85.97
+S0460,Supplier_460,Clothing,14,84.79,89.62,99.62
+S0461,Supplier_461,Books,11,71.62,94.44,70.41
+S0462,Supplier_462,Shoes,16,80.56,91.74,73.18
+S0463,Supplier_463,Souvenir,9,96.47,79.71,79.38
+S0464,Supplier_464,Shoes,8,76.67,83.96,91.7
+S0465,Supplier_465,Toys,5,89.96,79.84,83.19
+S0466,Supplier_466,Food & Beverage,5,73.33,94.66,82.18
+S0467,Supplier_467,Shoes,10,74.85,88.2,95.27
+S0468,Supplier_468,Food & Beverage,3,72.49,96.21,75.85
+S0469,Supplier_469,Cosmetics,8,81.64,98.67,94.89
+S0470,Supplier_470,Technology,8,84.87,88.1,64.94
+S0471,Supplier_471,Food & Beverage,3,77.1,92.75,94.85
+S0472,Supplier_472,Books,13,76.65,75.47,72.03
+S0473,Supplier_473,Toys,11,88.1,92.41,67.06
+S0474,Supplier_474,Clothing,17,83.35,82.76,66.08
+S0475,Supplier_475,Shoes,16,78.38,75.44,70.54
+S0476,Supplier_476,Food & Beverage,8,87.6,89.27,66.11
+S0477,Supplier_477,Toys,3,70.33,92.87,70.94
+S0478,Supplier_478,Shoes,19,87.68,87.97,81.87
+S0479,Supplier_479,Souvenir,15,88.75,84.2,67.12
+S0480,Supplier_480,Books,4,75.88,76.52,94.2
+S0481,Supplier_481,Technology,2,80.39,78.03,70.3
+S0482,Supplier_482,Cosmetics,15,96.88,90.63,70.39
+S0483,Supplier_483,Shoes,9,80.5,81.32,74.46
+S0484,Supplier_484,Toys,9,78.35,76.99,97.0
+S0485,Supplier_485,Toys,19,92.72,85.44,92.91
+S0486,Supplier_486,Toys,6,87.37,89.94,88.07
+S0487,Supplier_487,Clothing,19,83.39,92.68,78.72
+S0488,Supplier_488,Toys,9,91.9,97.88,97.57
+S0489,Supplier_489,Cosmetics,18,95.9,96.05,67.22
+S0490,Supplier_490,Clothing,5,86.15,82.84,84.45
+S0491,Supplier_491,Souvenir,15,73.56,75.55,98.97
+S0492,Supplier_492,Technology,5,88.5,83.62,94.7
+S0493,Supplier_493,Food & Beverage,16,88.07,93.41,76.57
+S0494,Supplier_494,Clothing,8,84.64,96.69,96.7
+S0495,Supplier_495,Toys,10,79.84,78.28,63.5
+S0496,Supplier_496,Shoes,7,78.95,80.91,98.23
+S0497,Supplier_497,Clothing,14,93.59,96.82,67.2
+S0498,Supplier_498,Cosmetics,2,92.03,94.29,93.02
+S0499,Supplier_499,Cosmetics,4,94.3,87.38,66.75
+S0500,Supplier_500,Toys,15,88.44,79.79,82.35
+S0501,Supplier_501,Technology,6,71.99,85.47,72.51
+S0502,Supplier_502,Cosmetics,15,76.91,90.52,63.23
+S0503,Supplier_503,Toys,8,70.33,77.87,62.2
+S0504,Supplier_504,Shoes,14,74.73,98.88,98.01
+S0505,Supplier_505,Cosmetics,7,75.57,86.58,89.53
+S0506,Supplier_506,Books,4,88.86,89.91,80.3
+S0507,Supplier_507,Food & Beverage,4,94.14,86.15,82.15
+S0508,Supplier_508,Food & Beverage,12,78.35,96.94,89.19
+S0509,Supplier_509,Cosmetics,8,95.56,80.32,75.0
+S0510,Supplier_510,Souvenir,2,71.02,77.21,64.14
+S0511,Supplier_511,Food & Beverage,19,86.19,85.65,74.08
+S0512,Supplier_512,Technology,4,93.21,83.38,86.21
+S0513,Supplier_513,Souvenir,2,84.44,93.47,76.94
+S0514,Supplier_514,Shoes,9,72.59,84.87,79.81
+S0515,Supplier_515,Food & Beverage,15,78.59,92.09,71.36
+S0516,Supplier_516,Books,16,73.3,95.11,83.49
+S0517,Supplier_517,Souvenir,3,96.81,89.99,84.56
+S0518,Supplier_518,Books,13,87.84,79.38,81.22
+S0519,Supplier_519,Food & Beverage,16,84.58,92.72,81.72
+S0520,Supplier_520,Food & Beverage,9,92.2,77.03,61.42
+S0521,Supplier_521,Books,3,84.77,88.6,95.52
+S0522,Supplier_522,Technology,10,76.05,97.4,79.22
+S0523,Supplier_523,Books,11,98.59,91.26,93.63
+S0524,Supplier_524,Books,11,84.2,77.39,67.64
+S0525,Supplier_525,Food & Beverage,14,76.52,88.48,75.44
+S0526,Supplier_526,Cosmetics,8,71.4,90.39,98.11
+S0527,Supplier_527,Clothing,18,86.31,77.18,70.79
+S0528,Supplier_528,Toys,4,89.69,89.42,75.72
+S0529,Supplier_529,Books,2,80.02,84.84,92.5
+S0530,Supplier_530,Souvenir,4,83.0,77.24,99.49
+S0531,Supplier_531,Toys,5,96.88,76.56,60.28
+S0532,Supplier_532,Souvenir,2,94.49,85.4,82.12
+S0533,Supplier_533,Shoes,8,70.41,89.82,61.67
+S0534,Supplier_534,Clothing,18,97.58,85.92,64.99
+S0535,Supplier_535,Cosmetics,9,72.19,89.87,80.03
+S0536,Supplier_536,Clothing,9,77.06,85.21,78.47
+S0537,Supplier_537,Shoes,16,83.94,79.02,78.67
+S0538,Supplier_538,Clothing,7,77.17,79.41,84.15
+S0539,Supplier_539,Technology,7,95.67,94.03,85.69
+S0540,Supplier_540,Food & Beverage,8,87.38,89.88,75.97
+S0541,Supplier_541,Toys,13,75.06,80.6,74.66
+S0542,Supplier_542,Clothing,13,78.58,95.09,87.51
+S0543,Supplier_543,Clothing,15,88.31,80.95,97.18
+S0544,Supplier_544,Toys,18,79.67,75.56,66.94
+S0545,Supplier_545,Technology,9,71.74,93.31,64.14
+S0546,Supplier_546,Clothing,19,75.84,80.95,79.49
+S0547,Supplier_547,Shoes,17,79.08,78.36,88.37
+S0548,Supplier_548,Food & Beverage,14,91.92,81.84,78.01
+S0549,Supplier_549,Toys,15,87.84,77.18,67.25
+S0550,Supplier_550,Toys,6,81.68,77.63,69.34
+S0551,Supplier_551,Food & Beverage,13,90.34,96.76,86.09
+S0552,Supplier_552,Food & Beverage,14,71.72,86.0,62.75
+S0553,Supplier_553,Food & Beverage,14,91.02,96.75,91.64
+S0554,Supplier_554,Souvenir,15,72.42,87.3,99.25
+S0555,Supplier_555,Food & Beverage,7,72.01,87.38,85.79
+S0556,Supplier_556,Technology,8,86.25,79.48,99.6
+S0557,Supplier_557,Shoes,8,93.62,77.58,76.99
+S0558,Supplier_558,Food & Beverage,15,70.72,82.33,96.18
+S0559,Supplier_559,Souvenir,10,97.58,87.13,99.78
+S0560,Supplier_560,Cosmetics,13,93.64,88.96,94.06
+S0561,Supplier_561,Technology,6,80.05,86.51,94.65
+S0562,Supplier_562,Technology,10,81.5,94.83,81.09
+S0563,Supplier_563,Toys,5,76.68,95.88,72.88
+S0564,Supplier_564,Souvenir,5,76.33,88.05,94.91
+S0565,Supplier_565,Clothing,15,87.51,80.56,77.27
+S0566,Supplier_566,Souvenir,14,83.12,77.73,93.21
+S0567,Supplier_567,Clothing,13,92.98,82.47,93.7
+S0568,Supplier_568,Cosmetics,8,86.34,87.54,64.39
+S0569,Supplier_569,Food & Beverage,13,97.99,84.16,91.76
+S0570,Supplier_570,Food & Beverage,8,86.62,95.33,64.67
+S0571,Supplier_571,Food & Beverage,19,84.27,91.31,71.51
+S0572,Supplier_572,Toys,12,79.81,97.95,78.15
+S0573,Supplier_573,Technology,14,90.01,98.24,95.38
+S0574,Supplier_574,Clothing,10,94.59,80.41,64.86
+S0575,Supplier_575,Shoes,10,80.96,98.15,66.69
+S0576,Supplier_576,Cosmetics,18,86.35,86.5,94.66
+S0577,Supplier_577,Souvenir,6,77.74,84.22,77.93
+S0578,Supplier_578,Souvenir,17,77.85,97.76,70.9
+S0579,Supplier_579,Cosmetics,6,78.15,91.47,74.59
+S0580,Supplier_580,Toys,15,91.01,97.98,63.62
+S0581,Supplier_581,Books,19,95.81,81.83,98.86
+S0582,Supplier_582,Cosmetics,14,84.52,89.97,79.55
+S0583,Supplier_583,Souvenir,6,82.47,84.22,96.34
+S0584,Supplier_584,Books,19,83.57,85.44,76.94
+S0585,Supplier_585,Toys,12,72.09,92.93,97.53
+S0586,Supplier_586,Shoes,7,77.79,96.15,76.69
+S0587,Supplier_587,Food & Beverage,18,98.04,96.24,88.55
+S0588,Supplier_588,Toys,9,91.61,84.77,99.59
+S0589,Supplier_589,Clothing,10,78.05,95.03,88.54
+S0590,Supplier_590,Cosmetics,9,92.9,96.59,97.28
+S0591,Supplier_591,Clothing,8,92.36,87.71,93.54
+S0592,Supplier_592,Shoes,7,81.02,77.84,66.0
+S0593,Supplier_593,Technology,17,75.39,88.45,86.61
+S0594,Supplier_594,Toys,17,78.4,83.0,96.54
+S0595,Supplier_595,Shoes,13,89.9,80.84,60.13
+S0596,Supplier_596,Food & Beverage,10,89.27,78.06,70.94
+S0597,Supplier_597,Clothing,3,85.15,96.13,60.28
+S0598,Supplier_598,Clothing,2,97.16,91.94,63.69
+S0599,Supplier_599,Technology,19,91.86,93.89,66.78
+S0600,Supplier_600,Clothing,9,91.46,88.08,77.91
+S0601,Supplier_601,Toys,7,87.72,95.25,79.86
+S0602,Supplier_602,Food & Beverage,15,80.87,90.99,84.78
+S0603,Supplier_603,Technology,9,92.81,78.45,78.51
+S0604,Supplier_604,Technology,4,75.02,80.42,99.03
+S0605,Supplier_605,Cosmetics,16,77.52,76.11,85.1
+S0606,Supplier_606,Toys,19,82.27,78.36,63.77
+S0607,Supplier_607,Shoes,4,82.5,96.55,74.49
+S0608,Supplier_608,Books,19,72.82,77.31,68.59
+S0609,Supplier_609,Food & Beverage,12,72.19,81.79,86.86
+S0610,Supplier_610,Souvenir,13,85.26,88.85,96.9
+S0611,Supplier_611,Food & Beverage,7,87.23,92.2,96.17
+S0612,Supplier_612,Technology,6,96.46,85.5,89.87
+S0613,Supplier_613,Technology,17,73.16,84.77,99.43
+S0614,Supplier_614,Souvenir,12,75.51,90.62,81.86
+S0615,Supplier_615,Shoes,15,78.4,87.28,70.18
+S0616,Supplier_616,Toys,7,91.09,85.0,65.31
+S0617,Supplier_617,Cosmetics,4,96.75,77.8,66.91
+S0618,Supplier_618,Food & Beverage,15,74.57,85.66,80.76
+S0619,Supplier_619,Technology,19,85.67,94.53,72.69
+S0620,Supplier_620,Toys,8,84.42,89.18,77.92
+S0621,Supplier_621,Souvenir,5,85.5,89.52,87.3
+S0622,Supplier_622,Toys,12,72.4,95.97,85.42
+S0623,Supplier_623,Food & Beverage,12,98.19,87.74,68.26
+S0624,Supplier_624,Food & Beverage,19,92.59,93.31,81.62
+S0625,Supplier_625,Souvenir,8,70.54,96.03,80.15
+S0626,Supplier_626,Toys,2,75.08,80.37,72.51
+S0627,Supplier_627,Clothing,19,81.37,80.63,85.98
+S0628,Supplier_628,Cosmetics,2,86.55,81.35,70.32
+S0629,Supplier_629,Toys,19,98.42,82.66,82.46
+S0630,Supplier_630,Cosmetics,10,96.12,79.3,95.17
+S0631,Supplier_631,Books,9,84.67,85.65,62.69
+S0632,Supplier_632,Books,5,75.92,97.37,81.67
+S0633,Supplier_633,Clothing,6,71.64,98.13,98.76
+S0634,Supplier_634,Books,13,92.88,94.68,69.34
+S0635,Supplier_635,Shoes,3,79.84,82.72,70.05
+S0636,Supplier_636,Clothing,8,97.59,85.05,77.8
+S0637,Supplier_637,Food & Beverage,4,92.94,78.62,88.28
+S0638,Supplier_638,Cosmetics,14,97.01,91.19,95.78
+S0639,Supplier_639,Technology,11,97.4,94.21,72.68
+S0640,Supplier_640,Souvenir,19,85.82,98.11,61.74
+S0641,Supplier_641,Cosmetics,16,88.4,95.75,63.91
+S0642,Supplier_642,Cosmetics,18,81.67,94.77,96.17
+S0643,Supplier_643,Shoes,14,89.24,85.12,72.2
+S0644,Supplier_644,Toys,5,97.41,81.6,63.92
+S0645,Supplier_645,Toys,16,88.78,80.38,66.31
+S0646,Supplier_646,Souvenir,19,78.4,96.32,62.49
+S0647,Supplier_647,Souvenir,16,87.64,81.12,72.07
+S0648,Supplier_648,Food & Beverage,12,71.47,93.55,67.89
+S0649,Supplier_649,Books,2,77.38,81.13,91.95
+S0650,Supplier_650,Cosmetics,19,73.99,84.13,89.92
+S0651,Supplier_651,Technology,17,74.74,93.7,66.31
+S0652,Supplier_652,Toys,15,81.61,95.26,68.17
+S0653,Supplier_653,Toys,13,83.66,93.05,91.76
+S0654,Supplier_654,Books,8,73.66,83.28,76.8
+S0655,Supplier_655,Food & Beverage,18,98.6,89.0,88.39
+S0656,Supplier_656,Technology,7,77.55,96.96,90.97
+S0657,Supplier_657,Books,17,78.35,79.21,83.31
+S0658,Supplier_658,Technology,14,78.51,88.29,95.67
+S0659,Supplier_659,Shoes,19,86.89,87.81,98.8
+S0660,Supplier_660,Books,8,96.65,79.23,62.09
+S0661,Supplier_661,Books,12,89.58,91.48,60.13
+S0662,Supplier_662,Cosmetics,5,77.59,92.81,68.05
+S0663,Supplier_663,Clothing,4,71.01,83.11,85.48
+S0664,Supplier_664,Toys,6,95.3,91.05,94.84
+S0665,Supplier_665,Cosmetics,2,96.39,85.89,88.2
+S0666,Supplier_666,Clothing,12,89.78,91.8,67.56
+S0667,Supplier_667,Souvenir,2,82.28,75.42,62.38
+S0668,Supplier_668,Technology,3,97.63,88.96,85.94
+S0669,Supplier_669,Toys,3,87.07,89.97,71.23
+S0670,Supplier_670,Books,17,85.16,85.69,98.42
+S0671,Supplier_671,Clothing,6,70.34,90.54,68.92
+S0672,Supplier_672,Toys,16,95.81,98.78,72.25
+S0673,Supplier_673,Shoes,4,95.09,87.07,96.99
+S0674,Supplier_674,Technology,13,98.77,91.47,80.73
+S0675,Supplier_675,Shoes,10,97.2,87.15,88.59
+S0676,Supplier_676,Shoes,11,87.68,83.25,68.12
+S0677,Supplier_677,Food & Beverage,12,78.64,83.42,97.92
+S0678,Supplier_678,Cosmetics,19,74.96,91.63,73.69
+S0679,Supplier_679,Shoes,14,72.98,83.08,93.34
+S0680,Supplier_680,Cosmetics,10,86.55,88.78,82.83
+S0681,Supplier_681,Souvenir,13,96.01,78.33,70.77
+S0682,Supplier_682,Shoes,12,90.52,77.27,68.72
+S0683,Supplier_683,Food & Beverage,5,74.94,90.18,94.65
+S0684,Supplier_684,Cosmetics,15,97.33,94.43,95.45
+S0685,Supplier_685,Toys,19,80.34,86.8,66.08
+S0686,Supplier_686,Cosmetics,16,74.46,76.19,60.96
+S0687,Supplier_687,Clothing,2,87.73,82.39,91.41
+S0688,Supplier_688,Food & Beverage,2,85.46,96.57,91.57
+S0689,Supplier_689,Technology,16,73.76,91.38,68.75
+S0690,Supplier_690,Souvenir,11,82.85,96.8,88.91
+S0691,Supplier_691,Souvenir,6,93.43,90.47,62.23
+S0692,Supplier_692,Toys,15,96.0,76.82,93.27
+S0693,Supplier_693,Cosmetics,4,91.18,82.03,73.7
+S0694,Supplier_694,Books,5,88.76,93.55,62.73
+S0695,Supplier_695,Shoes,2,85.93,90.07,98.38
+S0696,Supplier_696,Clothing,10,86.58,89.58,70.99
+S0697,Supplier_697,Food & Beverage,16,80.1,92.57,96.03
+S0698,Supplier_698,Souvenir,14,87.29,80.63,85.85
+S0699,Supplier_699,Shoes,9,78.54,92.78,94.68
+S0700,Supplier_700,Souvenir,2,85.88,76.14,72.37
+S0701,Supplier_701,Food & Beverage,7,74.27,89.75,94.03
+S0702,Supplier_702,Books,8,78.43,92.31,94.71
+S0703,Supplier_703,Books,8,95.13,93.03,81.94
+S0704,Supplier_704,Toys,11,70.35,98.76,73.6
+S0705,Supplier_705,Clothing,18,90.1,86.0,85.47
+S0706,Supplier_706,Toys,4,85.59,95.31,88.42
+S0707,Supplier_707,Technology,7,96.99,87.47,99.45
+S0708,Supplier_708,Cosmetics,14,84.69,75.12,78.73
+S0709,Supplier_709,Clothing,9,78.81,90.26,64.77
+S0710,Supplier_710,Souvenir,12,76.87,95.8,79.72
+S0711,Supplier_711,Clothing,12,77.23,79.37,96.25
+S0712,Supplier_712,Technology,14,87.09,97.23,64.52
+S0713,Supplier_713,Books,19,97.27,75.02,88.09
+S0714,Supplier_714,Souvenir,19,87.71,92.61,76.67
+S0715,Supplier_715,Technology,9,75.54,91.84,63.38
+S0716,Supplier_716,Books,15,83.7,91.59,94.23
+S0717,Supplier_717,Toys,2,89.83,83.79,69.97
+S0718,Supplier_718,Technology,5,95.09,94.31,67.01
+S0719,Supplier_719,Food & Beverage,11,74.39,96.57,69.77
+S0720,Supplier_720,Food & Beverage,14,83.71,88.93,79.39
+S0721,Supplier_721,Cosmetics,2,77.1,92.77,79.53
+S0722,Supplier_722,Souvenir,12,74.99,87.81,80.21
+S0723,Supplier_723,Cosmetics,3,75.73,77.46,85.06
+S0724,Supplier_724,Cosmetics,15,73.16,76.05,81.32
+S0725,Supplier_725,Clothing,12,87.27,78.67,87.28
+S0726,Supplier_726,Cosmetics,11,75.53,94.4,98.14
+S0727,Supplier_727,Souvenir,6,70.92,88.02,97.99
+S0728,Supplier_728,Food & Beverage,9,82.51,88.74,97.2
+S0729,Supplier_729,Clothing,9,77.57,98.53,94.86
+S0730,Supplier_730,Technology,11,98.26,91.67,82.02
+S0731,Supplier_731,Clothing,6,98.42,77.03,73.24
+S0732,Supplier_732,Souvenir,8,78.54,88.0,87.1
+S0733,Supplier_733,Toys,12,76.58,85.41,92.32
+S0734,Supplier_734,Technology,18,76.76,75.6,87.91
+S0735,Supplier_735,Clothing,3,87.54,96.46,63.7
+S0736,Supplier_736,Technology,8,96.68,96.05,93.35
+S0737,Supplier_737,Souvenir,10,73.45,95.27,90.79
+S0738,Supplier_738,Shoes,19,87.92,88.23,80.26
+S0739,Supplier_739,Cosmetics,6,82.57,80.56,97.29
+S0740,Supplier_740,Toys,5,86.3,85.56,90.87
+S0741,Supplier_741,Technology,14,75.14,77.82,100.0
+S0742,Supplier_742,Technology,17,93.81,90.05,71.17
+S0743,Supplier_743,Cosmetics,6,81.17,78.19,93.21
+S0744,Supplier_744,Souvenir,6,90.84,75.07,74.73
+S0745,Supplier_745,Shoes,13,70.27,90.43,87.61
+S0746,Supplier_746,Clothing,11,85.91,75.46,95.94
+S0747,Supplier_747,Books,3,74.71,75.08,81.2
+S0748,Supplier_748,Shoes,2,89.28,84.75,64.59
+S0749,Supplier_749,Food & Beverage,8,98.29,82.66,70.99
+S0750,Supplier_750,Cosmetics,9,87.96,82.58,61.24
+S0751,Supplier_751,Cosmetics,4,97.41,78.36,94.14
+S0752,Supplier_752,Souvenir,13,88.33,83.57,63.01
+S0753,Supplier_753,Clothing,3,82.5,98.35,77.82
+S0754,Supplier_754,Books,18,86.08,83.82,80.42
+S0755,Supplier_755,Clothing,10,74.03,93.54,93.52
+S0756,Supplier_756,Technology,14,72.38,84.9,98.23
+S0757,Supplier_757,Technology,12,92.72,89.66,85.31
+S0758,Supplier_758,Technology,4,82.88,85.33,85.38
+S0759,Supplier_759,Technology,13,88.4,89.31,94.02
+S0760,Supplier_760,Food & Beverage,12,72.0,89.63,78.13
+S0761,Supplier_761,Souvenir,3,83.95,95.78,92.46
+S0762,Supplier_762,Technology,19,76.85,78.9,93.4
+S0763,Supplier_763,Books,5,74.8,76.23,87.79
+S0764,Supplier_764,Food & Beverage,3,92.78,81.96,95.59
+S0765,Supplier_765,Technology,12,77.93,95.75,98.1
+S0766,Supplier_766,Clothing,9,90.92,76.38,79.97
+S0767,Supplier_767,Toys,15,91.7,80.64,72.16
+S0768,Supplier_768,Technology,12,87.08,78.96,85.78
+S0769,Supplier_769,Toys,18,93.74,96.19,86.61
+S0770,Supplier_770,Souvenir,13,82.05,78.88,88.25
+S0771,Supplier_771,Food & Beverage,18,76.35,80.68,65.54
+S0772,Supplier_772,Clothing,6,85.98,98.25,68.01
+S0773,Supplier_773,Shoes,11,75.32,75.13,75.18
+S0774,Supplier_774,Books,9,94.57,77.76,67.1
+S0775,Supplier_775,Souvenir,5,81.34,90.9,70.58
+S0776,Supplier_776,Toys,11,77.81,90.81,65.07
+S0777,Supplier_777,Clothing,8,80.23,96.24,62.77
+S0778,Supplier_778,Toys,18,92.18,93.98,67.33
+S0779,Supplier_779,Books,8,92.7,80.99,97.75
+S0780,Supplier_780,Toys,13,73.32,87.13,76.23
+S0781,Supplier_781,Technology,7,71.52,91.14,83.33
+S0782,Supplier_782,Clothing,4,88.09,88.24,99.48
+S0783,Supplier_783,Books,7,87.83,83.77,89.6
+S0784,Supplier_784,Technology,2,76.17,81.36,72.13
+S0785,Supplier_785,Toys,18,82.47,89.51,87.36
+S0786,Supplier_786,Shoes,19,88.46,86.98,86.91
+S0787,Supplier_787,Toys,3,85.63,81.82,80.65
+S0788,Supplier_788,Books,11,82.44,79.34,85.5
+S0789,Supplier_789,Books,7,87.12,84.49,68.06
+S0790,Supplier_790,Cosmetics,14,81.9,88.09,85.96
+S0791,Supplier_791,Food & Beverage,15,77.56,93.33,67.24
+S0792,Supplier_792,Technology,6,91.2,82.75,63.72
+S0793,Supplier_793,Shoes,16,81.85,79.25,75.85
+S0794,Supplier_794,Shoes,17,73.75,93.89,68.74
+S0795,Supplier_795,Toys,4,97.72,98.8,72.02
+S0796,Supplier_796,Toys,13,72.82,95.74,69.98
+S0797,Supplier_797,Souvenir,4,92.68,76.07,86.52
+S0798,Supplier_798,Cosmetics,5,86.28,96.45,99.45
+S0799,Supplier_799,Books,7,87.77,98.98,90.07
+S0800,Supplier_800,Cosmetics,14,93.63,92.55,88.04
+S0801,Supplier_801,Souvenir,8,89.01,91.74,86.37
+S0802,Supplier_802,Books,19,95.27,92.63,73.81
+S0803,Supplier_803,Clothing,4,73.24,88.87,84.18
+S0804,Supplier_804,Food & Beverage,3,92.16,82.59,62.34
+S0805,Supplier_805,Toys,19,94.98,79.1,64.79
+S0806,Supplier_806,Technology,11,91.68,96.44,90.77
+S0807,Supplier_807,Cosmetics,16,77.08,97.89,89.95
+S0808,Supplier_808,Clothing,15,92.29,90.76,94.02
+S0809,Supplier_809,Technology,11,73.45,92.73,99.95
+S0810,Supplier_810,Shoes,19,98.82,98.22,80.69
+S0811,Supplier_811,Food & Beverage,11,71.27,91.45,78.98
+S0812,Supplier_812,Technology,13,85.82,84.71,84.32
+S0813,Supplier_813,Food & Beverage,18,71.57,94.6,63.0
+S0814,Supplier_814,Souvenir,17,98.46,83.09,93.32
+S0815,Supplier_815,Clothing,14,87.5,91.74,82.72
+S0816,Supplier_816,Food & Beverage,6,96.93,80.33,72.96
+S0817,Supplier_817,Books,14,77.63,89.25,76.56
+S0818,Supplier_818,Clothing,14,80.35,94.27,90.64
+S0819,Supplier_819,Souvenir,6,91.8,97.55,63.66
+S0820,Supplier_820,Toys,10,95.36,89.27,62.03
+S0821,Supplier_821,Books,11,78.17,79.23,77.54
+S0822,Supplier_822,Shoes,13,94.15,98.12,62.68
+S0823,Supplier_823,Books,10,91.33,88.38,61.17
+S0824,Supplier_824,Food & Beverage,6,77.41,82.87,79.97
+S0825,Supplier_825,Technology,17,97.17,86.35,83.1
+S0826,Supplier_826,Souvenir,5,95.93,88.33,67.27
+S0827,Supplier_827,Shoes,8,86.96,90.41,61.98
+S0828,Supplier_828,Souvenir,10,82.24,82.11,97.94
+S0829,Supplier_829,Shoes,6,95.79,76.46,97.77
+S0830,Supplier_830,Food & Beverage,7,76.97,80.68,87.72
+S0831,Supplier_831,Food & Beverage,9,95.22,98.65,91.9
+S0832,Supplier_832,Technology,5,70.73,92.03,86.48
+S0833,Supplier_833,Souvenir,9,76.12,98.12,97.32
+S0834,Supplier_834,Food & Beverage,13,70.83,92.05,66.29
+S0835,Supplier_835,Toys,13,89.28,79.97,82.85
+S0836,Supplier_836,Toys,10,98.33,80.01,70.53
+S0837,Supplier_837,Technology,4,85.76,90.73,93.04
+S0838,Supplier_838,Books,7,95.68,87.59,65.41
+S0839,Supplier_839,Technology,3,83.17,92.6,96.4
+S0840,Supplier_840,Books,11,87.8,89.99,76.75
+S0841,Supplier_841,Food & Beverage,4,75.89,92.09,93.59
+S0842,Supplier_842,Technology,15,98.45,94.49,91.06
+S0843,Supplier_843,Souvenir,8,84.7,88.57,76.14
+S0844,Supplier_844,Books,13,96.86,98.9,99.27
+S0845,Supplier_845,Shoes,13,86.89,98.82,95.96
+S0846,Supplier_846,Technology,3,91.98,77.13,99.96
+S0847,Supplier_847,Food & Beverage,3,92.95,75.25,97.65
+S0848,Supplier_848,Cosmetics,2,72.51,81.22,79.21
+S0849,Supplier_849,Cosmetics,7,78.55,75.01,95.86
+S0850,Supplier_850,Toys,13,98.85,90.11,89.07
+S0851,Supplier_851,Clothing,15,82.83,94.2,77.51
+S0852,Supplier_852,Shoes,19,78.16,84.1,66.62
+S0853,Supplier_853,Books,17,77.42,75.11,81.11
+S0854,Supplier_854,Shoes,11,91.47,82.36,88.11
+S0855,Supplier_855,Shoes,7,76.42,81.21,65.03
+S0856,Supplier_856,Books,18,74.27,85.5,76.23
+S0857,Supplier_857,Souvenir,10,72.37,78.58,99.02
+S0858,Supplier_858,Toys,4,77.65,83.12,69.82
+S0859,Supplier_859,Cosmetics,10,89.45,81.07,72.83
+S0860,Supplier_860,Shoes,5,87.0,78.66,90.6
+S0861,Supplier_861,Souvenir,17,98.82,91.67,85.16
+S0862,Supplier_862,Food & Beverage,2,81.04,97.36,99.06
+S0863,Supplier_863,Toys,2,80.06,75.33,75.69
+S0864,Supplier_864,Souvenir,15,81.76,76.23,62.53
+S0865,Supplier_865,Clothing,19,94.62,78.97,98.97
+S0866,Supplier_866,Books,14,94.95,96.3,98.71
+S0867,Supplier_867,Food & Beverage,2,86.93,79.99,79.54
+S0868,Supplier_868,Books,17,82.07,96.98,65.29
+S0869,Supplier_869,Cosmetics,6,83.35,93.35,99.04
+S0870,Supplier_870,Cosmetics,4,80.95,94.33,74.26
+S0871,Supplier_871,Souvenir,5,95.45,81.63,99.99
+S0872,Supplier_872,Cosmetics,4,93.28,94.95,61.79
+S0873,Supplier_873,Technology,10,79.29,96.53,90.51
+S0874,Supplier_874,Cosmetics,7,85.47,95.05,86.16
+S0875,Supplier_875,Books,5,81.42,76.31,88.76
+S0876,Supplier_876,Cosmetics,16,75.87,98.52,98.45
+S0877,Supplier_877,Books,3,74.66,82.48,94.52
+S0878,Supplier_878,Shoes,16,70.96,85.24,70.26
+S0879,Supplier_879,Toys,11,75.29,94.11,91.5
+S0880,Supplier_880,Books,13,77.19,91.55,76.9
+S0881,Supplier_881,Toys,3,96.75,78.36,99.63
+S0882,Supplier_882,Food & Beverage,5,77.61,93.91,83.72
+S0883,Supplier_883,Books,3,80.74,78.76,95.59
+S0884,Supplier_884,Souvenir,15,92.53,84.81,60.69
+S0885,Supplier_885,Books,4,97.25,94.05,91.4
+S0886,Supplier_886,Cosmetics,15,77.18,75.68,92.9
+S0887,Supplier_887,Toys,16,83.21,96.26,69.12
+S0888,Supplier_888,Souvenir,6,80.06,87.54,73.02
+S0889,Supplier_889,Clothing,4,73.4,97.53,67.36
+S0890,Supplier_890,Cosmetics,15,75.29,87.6,98.82
+S0891,Supplier_891,Food & Beverage,16,75.17,77.31,63.79
+S0892,Supplier_892,Toys,9,77.14,89.35,91.8
+S0893,Supplier_893,Food & Beverage,2,79.12,79.78,94.61
+S0894,Supplier_894,Books,10,91.92,78.98,96.22
+S0895,Supplier_895,Souvenir,10,83.95,90.58,67.82
+S0896,Supplier_896,Souvenir,17,86.37,84.49,79.01
+S0897,Supplier_897,Food & Beverage,10,87.25,82.55,90.22
+S0898,Supplier_898,Food & Beverage,8,78.02,87.14,97.52
+S0899,Supplier_899,Food & Beverage,3,98.98,90.45,63.53
+S0900,Supplier_900,Technology,9,85.2,82.83,74.14
+S0901,Supplier_901,Food & Beverage,11,82.11,86.58,70.06
+S0902,Supplier_902,Food & Beverage,11,74.66,81.09,61.97
+S0903,Supplier_903,Books,16,80.02,78.9,93.57
+S0904,Supplier_904,Food & Beverage,11,71.38,84.25,82.1
+S0905,Supplier_905,Clothing,17,86.21,86.41,76.84
+S0906,Supplier_906,Food & Beverage,3,82.81,97.39,85.42
+S0907,Supplier_907,Souvenir,14,95.61,92.59,75.62
+S0908,Supplier_908,Souvenir,12,87.77,87.81,94.61
+S0909,Supplier_909,Shoes,13,76.36,96.96,76.15
+S0910,Supplier_910,Clothing,11,70.63,77.21,76.21
+S0911,Supplier_911,Clothing,10,85.24,85.0,80.91
+S0912,Supplier_912,Books,16,95.27,83.46,77.72
+S0913,Supplier_913,Clothing,6,86.7,79.81,93.04
+S0914,Supplier_914,Technology,19,82.03,78.9,85.35
+S0915,Supplier_915,Food & Beverage,7,92.44,90.25,81.74
+S0916,Supplier_916,Shoes,4,97.44,88.61,69.6
+S0917,Supplier_917,Souvenir,14,77.43,95.68,60.5
+S0918,Supplier_918,Toys,13,94.8,80.04,94.63
+S0919,Supplier_919,Food & Beverage,9,86.58,77.1,97.85
+S0920,Supplier_920,Shoes,16,88.9,87.96,82.19
+S0921,Supplier_921,Souvenir,13,71.74,86.55,61.44
+S0922,Supplier_922,Food & Beverage,5,91.0,79.95,90.58
+S0923,Supplier_923,Books,6,73.33,76.73,63.46
+S0924,Supplier_924,Toys,12,97.81,84.03,82.26
+S0925,Supplier_925,Toys,4,83.14,98.07,78.29
+S0926,Supplier_926,Clothing,11,82.53,89.34,67.92
+S0927,Supplier_927,Toys,16,74.79,97.06,69.19
+S0928,Supplier_928,Clothing,9,92.63,77.01,84.18
+S0929,Supplier_929,Technology,15,88.66,89.3,94.48
+S0930,Supplier_930,Food & Beverage,9,77.46,77.37,82.33
+S0931,Supplier_931,Clothing,5,93.69,88.64,98.98
+S0932,Supplier_932,Souvenir,17,76.39,85.21,84.14
+S0933,Supplier_933,Souvenir,2,89.95,98.28,88.77
+S0934,Supplier_934,Food & Beverage,8,84.8,84.63,78.91
+S0935,Supplier_935,Souvenir,12,85.54,89.42,89.34
+S0936,Supplier_936,Toys,7,76.93,83.57,81.43
+S0937,Supplier_937,Cosmetics,7,73.44,91.55,62.8
+S0938,Supplier_938,Toys,5,91.47,75.55,65.5
+S0939,Supplier_939,Cosmetics,5,82.65,77.1,65.6
+S0940,Supplier_940,Food & Beverage,12,90.0,84.15,96.63
+S0941,Supplier_941,Technology,5,77.15,82.28,83.08
+S0942,Supplier_942,Toys,14,97.29,91.26,66.04
+S0943,Supplier_943,Clothing,16,71.8,89.75,94.31
+S0944,Supplier_944,Souvenir,5,75.52,80.45,88.36
+S0945,Supplier_945,Books,3,95.54,77.39,83.64
+S0946,Supplier_946,Souvenir,3,79.72,88.98,85.65
+S0947,Supplier_947,Food & Beverage,2,98.42,77.19,90.57
+S0948,Supplier_948,Souvenir,4,94.04,80.11,60.45
+S0949,Supplier_949,Toys,11,84.76,77.53,94.75
+S0950,Supplier_950,Books,14,84.42,97.36,75.17
+S0951,Supplier_951,Food & Beverage,3,87.51,89.76,81.87
+S0952,Supplier_952,Shoes,16,85.42,76.45,73.27
+S0953,Supplier_953,Clothing,15,97.91,76.42,92.18
+S0954,Supplier_954,Shoes,11,82.73,77.78,97.91
+S0955,Supplier_955,Technology,14,92.18,82.3,71.23
+S0956,Supplier_956,Toys,14,75.31,78.08,75.69
+S0957,Supplier_957,Clothing,8,80.02,84.34,62.36
+S0958,Supplier_958,Books,7,94.29,79.3,76.15
+S0959,Supplier_959,Souvenir,10,87.45,93.06,92.03
+S0960,Supplier_960,Cosmetics,17,77.05,97.9,67.89
+S0961,Supplier_961,Cosmetics,2,88.39,85.73,85.38
+S0962,Supplier_962,Souvenir,4,73.05,92.48,63.47
+S0963,Supplier_963,Clothing,6,91.11,80.23,67.36
+S0964,Supplier_964,Souvenir,7,71.56,83.79,79.7
+S0965,Supplier_965,Souvenir,6,92.77,88.39,99.31
+S0966,Supplier_966,Shoes,18,72.57,84.25,62.64
+S0967,Supplier_967,Books,9,76.44,97.48,78.4
+S0968,Supplier_968,Shoes,11,84.13,94.95,95.39
+S0969,Supplier_969,Shoes,12,89.3,95.98,64.07
+S0970,Supplier_970,Books,14,87.34,94.2,85.06
+S0971,Supplier_971,Souvenir,19,90.06,89.6,73.39
+S0972,Supplier_972,Cosmetics,7,82.31,80.29,63.46
+S0973,Supplier_973,Food & Beverage,8,91.81,97.47,69.38
+S0974,Supplier_974,Shoes,18,73.62,80.97,97.21
+S0975,Supplier_975,Shoes,3,91.38,76.9,91.98
+S0976,Supplier_976,Technology,5,84.37,82.5,94.22
+S0977,Supplier_977,Shoes,3,91.02,81.08,62.37
+S0978,Supplier_978,Food & Beverage,12,87.91,89.49,81.92
+S0979,Supplier_979,Food & Beverage,16,76.38,89.97,61.06
+S0980,Supplier_980,Food & Beverage,2,81.97,96.14,84.31
+S0981,Supplier_981,Cosmetics,11,73.18,84.28,92.0
+S0982,Supplier_982,Shoes,10,83.85,92.81,86.5
+S0983,Supplier_983,Clothing,14,85.93,82.9,92.0
+S0984,Supplier_984,Toys,5,92.22,77.15,72.01
+S0985,Supplier_985,Cosmetics,11,98.98,77.11,72.57
+S0986,Supplier_986,Souvenir,2,70.77,84.1,82.29
+S0987,Supplier_987,Shoes,14,90.69,93.13,60.06
+S0988,Supplier_988,Shoes,19,71.7,75.69,66.17
+S0989,Supplier_989,Toys,19,78.63,78.51,67.1
+S0990,Supplier_990,Toys,15,89.67,81.08,96.14
+S0991,Supplier_991,Shoes,4,79.45,87.61,88.2
+S0992,Supplier_992,Food & Beverage,6,93.62,96.61,62.0
+S0993,Supplier_993,Food & Beverage,17,86.66,77.78,96.15
+S0994,Supplier_994,Toys,7,95.39,94.05,80.72
+S0995,Supplier_995,Shoes,18,88.58,78.55,63.67
+S0996,Supplier_996,Books,3,80.0,77.13,73.12
+S0997,Supplier_997,Food & Beverage,5,87.31,94.38,92.02
+S0998,Supplier_998,Toys,12,77.39,96.36,62.93
+S0999,Supplier_999,Cosmetics,15,95.97,85.87,98.61
+S1000,Supplier_1000,Books,9,72.66,84.48,86.92
