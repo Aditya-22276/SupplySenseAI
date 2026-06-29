@@ -110,3 +110,5 @@ dist/
 
 .coverage
 htmlcov/
+
+backend/app/cache/files/

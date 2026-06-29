@@ -10,99 +10,112 @@ from app.models.warehouse_models import (
 def get_total_revenue():
     db = SessionLocal()
 
-    revenue = db.query(
-        func.sum(FactSales.revenue)
-    ).scalar()
+    try:
+        revenue = db.query(
+            func.sum(FactSales.revenue)
+        ).scalar()
 
-    db.close()
+        return revenue or 0
 
-    return revenue
+    finally:
+        db.close()
 
 
 def get_total_sales():
     db = SessionLocal()
 
-    sales = db.query(
-        func.count(FactSales.sale_id)
-    ).scalar()
+    try:
+        sales = db.query(
+            func.count(FactSales.sale_id)
+        ).scalar()
 
-    db.close()
+        return sales or 0
 
-    return sales
+    finally:
+        db.close()
 
 
 def get_total_products():
     db = SessionLocal()
 
-    products = db.query(
-        func.count(Product.product_id)
-    ).scalar()
+    try:
+        products = db.query(
+            func.count(Product.product_id)
+        ).scalar()
 
-    db.close()
+        return products or 0
 
-    return products
+    finally:
+        db.close()
 
 
 def get_top_categories(limit=5):
     db = SessionLocal()
 
-    result = (
-        db.query(
-            Product.category,
-            func.sum(FactSales.revenue).label("revenue")
+    try:
+        result = (
+            db.query(
+                Product.category,
+                func.sum(FactSales.revenue).label("revenue")
+            )
+            .join(
+                FactSales,
+                Product.product_id == FactSales.product_id
+            )
+            .group_by(Product.category)
+            .order_by(
+                func.sum(FactSales.revenue).desc()
+            )
+            .limit(limit)
+            .all()
         )
-        .join(
-            FactSales,
-            Product.product_id == FactSales.product_id
-        )
-        .group_by(Product.category)
-        .order_by(
-            func.sum(FactSales.revenue).desc()
-        )
-        .limit(limit)
-        .all()
-    )
 
-    db.close()
+        return result
 
-    return result
+    finally:
+        db.close()
+
+
 def get_monthly_sales():
     db = SessionLocal()
 
-    result = (
-        db.query(
-            DateDimension.year,
-            DateDimension.month,
-            func.sum(FactSales.revenue).label("revenue")
+    try:
+        result = (
+            db.query(
+                DateDimension.year,
+                DateDimension.month,
+                func.sum(FactSales.revenue).label("revenue")
+            )
+            .join(
+                DateDimension,
+                FactSales.date_id == DateDimension.date_id
+            )
+            .group_by(
+                DateDimension.year,
+                DateDimension.month
+            )
+            .order_by(
+                DateDimension.year,
+                DateDimension.month
+            )
+            .all()
         )
-        .join(
-            DateDimension,
-            FactSales.date_id == DateDimension.date_id
-        )
-        .group_by(
-            DateDimension.year,
-            DateDimension.month
-        )
-        .order_by(
-            DateDimension.year,
-            DateDimension.month
-        )
-        .all()
-    )
 
-    db.close()
+        return result
 
-    return result
+    finally:
+        db.close()
+
 
 def get_average_order_value():
     db = SessionLocal()
 
-    result = db.query(
-        func.avg(FactSales.revenue)
-    ).scalar()
+    try:
+        result = db.query(
+            func.avg(FactSales.revenue)
+        ).scalar()
 
-    db.close()
+        return result or 0
 
-    return result
-
-
+    finally:
+        db.close()
