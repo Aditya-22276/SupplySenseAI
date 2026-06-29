@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 
 import {
   AlertTriangle,
@@ -15,8 +15,8 @@ function SupplierRisk() {
 
   const fetchRiskSuppliers = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8000/supplier/risk"
+      const response = await api.get(
+        "/supplier/risk"
       );
 
       setSuppliers(response.data);

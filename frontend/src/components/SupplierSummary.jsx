@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 
 import {
   Users,
@@ -17,8 +17,8 @@ function SupplierSummary() {
 
   const fetchSummary = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8000/supplier/summary"
+      const response = await api.get(
+        "/supplier/summary"
       );
 
       setSummary(response.data);

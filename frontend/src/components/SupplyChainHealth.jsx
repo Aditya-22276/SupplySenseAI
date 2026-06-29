@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 import {
   Activity,
   TrendingUp,
@@ -14,8 +14,8 @@ function SupplyChainHealth() {
 
   const fetchHealth = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8000/executive/health"
+      const response = await api.get(
+        "/executive/health"
       );
 
       setHealth(response.data);

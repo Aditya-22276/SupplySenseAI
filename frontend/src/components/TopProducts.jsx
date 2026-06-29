@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 
 import {
   Trophy,
@@ -17,8 +17,8 @@ function TopProducts() {
 
   const fetchTopProducts = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8000/inventory/top-products"
+      const response = await api.get(
+        "/inventory/top-products"
       );
 
       setProducts(response.data);

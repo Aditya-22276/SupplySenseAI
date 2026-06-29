@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 
 import {
   ResponsiveContainer,
@@ -25,8 +25,8 @@ function LSTMForecastChart() {
     try {
 
       const response =
-        await axios.get(
-          "http://localhost:8000/forecast/lstm"
+        await api.get(
+          "/forecast/lstm"
         );
 
       setData(

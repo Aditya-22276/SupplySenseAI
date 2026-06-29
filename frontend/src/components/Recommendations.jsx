@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 
 import {
   Package,
@@ -18,8 +18,8 @@ function Recommendations() {
 
   const fetchRecommendations = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8000/recommendations/"
+      const response = await api.get(
+        "/recommendations/"
       );
 
       setRecommendations(response.data);

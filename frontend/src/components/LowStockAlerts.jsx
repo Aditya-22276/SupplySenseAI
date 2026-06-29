@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 import {
   AlertTriangle,
   Package
@@ -14,8 +14,8 @@ function LowStockAlerts() {
 
   const fetchLowStock = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8000/inventory/low-stock"
+      const response = await api.get(
+        "/inventory/low-stock"
       );
 
       setAlerts(response.data);

@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import api from "../services/api";
 import {
   Trophy,
   TrendingUp,
@@ -14,8 +14,8 @@ function TopSuppliers() {
 
   const fetchTopSuppliers = async () => {
     try {
-      const response = await axios.get(
-        "http://localhost:8000/supplier/top"
+      const response = await api.get(
+        "/supplier/top"
       );
 
       setSuppliers(response.data);
