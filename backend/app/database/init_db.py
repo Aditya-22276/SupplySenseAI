@@ -6,9 +6,9 @@ from app.models.warehouse_models import (
     Supplier,
     Warehouse,
     DateDimension,
-    FactSales
+    FactSales,
+    Inventory
 )
-
 
 def init_db():
     Base.metadata.create_all(bind=engine)

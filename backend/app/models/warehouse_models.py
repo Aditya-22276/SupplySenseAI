@@ -58,3 +58,16 @@ class FactSales(Base):
     quantity = Column(Integer, nullable=False)
 
     revenue = Column(Float, nullable=False)
+
+class Inventory(Base):
+    __tablename__ = "inventory"
+
+    product_id = Column(Integer, primary_key=True, index=True)
+    product_name = Column(String(255), nullable=False)
+    category = Column(String(100), nullable=False)
+    current_stock = Column(Integer, nullable=False)
+    reorder_point = Column(Integer, nullable=False)
+    max_capacity = Column(Integer, nullable=False)
+    warehouse_id = Column(String(50), nullable=False)
+    supplier_id = Column(String(50), nullable=False)
+    last_restock_date = Column(Date, nullable=False)
