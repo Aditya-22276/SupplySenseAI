@@ -1,35 +1,44 @@
-import pandas as pd
-from pathlib import Path
-
-BASE_DIR = Path(__file__).resolve().parents[3]
-
-INVENTORY_FILE = (
-    BASE_DIR /
-    "data" /
-    "raw" /
-    "inventory" /
-    "inventory.csv"
-)
+from sqlalchemy import text
+from app.database.session import SessionLocal
 
 
 def load_inventory():
-    return pd.read_csv(INVENTORY_FILE)
+
+    db = SessionLocal()
+
+    try:
+        result = db.execute(
+            text("SELECT * FROM inventory")
+        )
+
+        columns = result.keys()
+
+        data = [
+            dict(zip(columns, row))
+            for row in result.fetchall()
+        ]
+
+        return data
+
+    finally:
+        db.close()
 
 
 def get_inventory_health():
 
-    df = load_inventory()
+    data = load_inventory()
 
-    low_stock = len(
-        df[df["current_stock"] <= df["reorder_point"]]
+    low_stock = sum(
+        1 for row in data
+        if row["current_stock"] <= row["reorder_point"]
     )
 
-    total_products = len(df)
+    total_products = len(data)
 
     health_score = round(
         ((total_products - low_stock) / total_products) * 100,
         2
-    )
+    ) if total_products else 0
 
     return {
         "stock_health": health_score,
@@ -43,72 +52,71 @@ def get_inventory_health():
 
 def get_low_stock_alerts():
 
-    df = load_inventory()
-
-    low_stock = df[
-        df["current_stock"] <= df["reorder_point"]
-    ]
+    data = load_inventory()
 
     alerts = []
 
-    for _, row in low_stock.iterrows():
+    for row in data:
 
-        alerts.append({
-            "product": row["product_name"],
-            "stock": int(row["current_stock"]),
-            "reorder_point": int(row["reorder_point"])
-        })
+        if row["current_stock"] <= row["reorder_point"]:
+
+            alerts.append({
+                "product": row["product_name"],
+                "stock": row["current_stock"],
+                "reorder_point": row["reorder_point"]
+            })
 
     return alerts
 
 
 def get_top_products():
 
-    df = load_inventory()
-
-    top_products = (
-        df.sort_values(
-            by="current_stock",
-            ascending=False
-        )
-        .head(10)
-        [["product_name", "current_stock", "category"]]
+    data = sorted(
+        load_inventory(),
+        key=lambda x: x["current_stock"],
+        reverse=True
     )
 
-    return top_products.to_dict(orient="records")
+    return [
+        {
+            "product_name": row["product_name"],
+            "current_stock": row["current_stock"],
+            "category": row["category"]
+        }
+        for row in data[:10]
+    ]
 
 
 def get_ai_insights():
 
-    df = load_inventory()
+    data = load_inventory()
 
-    low_stock_count = len(
-        df[df["current_stock"] <= df["reorder_point"]]
-    )
+    total_products = len(data)
 
-    total_products = len(df)
+    low_stock = [
+        row for row in data
+        if row["current_stock"] <= row["reorder_point"]
+    ]
 
-    avg_stock = round(
-        df["current_stock"].mean(),
+    average_stock = round(
+        sum(row["current_stock"] for row in data) /
+        total_products,
         2
-    )
+    ) if total_products else 0
 
-    highest_stock_product = (
-        df.sort_values(
-            by="current_stock",
-            ascending=False
-        )
-        .iloc[0]["product_name"]
-    )
+    highest = max(
+        data,
+        key=lambda x: x["current_stock"]
+    ) if data else None
 
     return {
         "total_products": total_products,
-        "low_stock_products": low_stock_count,
-        "average_stock": avg_stock,
-        "highest_stock_product": highest_stock_product,
+        "low_stock_products": len(low_stock),
+        "average_stock": average_stock,
+        "highest_stock_product": highest["product_name"] if highest else None,
         "insights": [
-            f"{low_stock_count} products are below reorder level",
-            f"{highest_stock_product} currently has the highest stock level",
+            f"{len(low_stock)} products are below reorder level",
+            f"{highest['product_name']} currently has the highest stock level" if highest else "",
             "Inventory turnover appears healthy",
             "Demand forecast suggests maintaining safety stock levels"
         ]
